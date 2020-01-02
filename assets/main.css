@@ -1,0 +1,125 @@
+body {
+    background-color: #212121;
+    color: #EFEFEF;
+    font-family: 'Droid Serif', Georgia, "Times New Roman", Times, serif;
+}
+a {
+    color: #0BDAA6;
+}
+a:hover, a:focus {
+    color: #0BDAA6;
+    text-decoration: underline;
+}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+p {
+    font-family: 'Open Sans';
+}
+
+
+nav.navbar .navbar-nav a {
+    color: #BDBDBD;
+    position: relative;
+    padding: 1rem;
+    font-weight: 500;
+}
+nav.navbar .navbar-brand {
+    color: #fff;
+}
+nav.navbar {
+    /*margin-bottom: 5rem;*/
+    padding-bottom: 0px;
+}
+#welcome-section {
+    padding: 5rem 1.5rem 3rem 1.5rem;
+    text-align: center;
+}
+.navbar-nav .nav-item+.nav-item {
+    margin-left: 0px;
+}
+nav.navbar .container {
+    position: relative;
+}
+nav.navbar .well {
+    float: right;
+    clear: both;
+    padding: 18px;
+    min-height: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #303030;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    border: #0BDAA6 solid 1px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+nav.navbar img {
+    padding: 0px 12px;
+}
+
+nav.navbar .active .nav-link:after {
+    color: #202020;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -.3rem;
+    vertical-align: middle;
+    content: "";
+    border-right: .3rem solid transparent;
+    border-bottom: .3rem solid;
+    border-left: .3rem solid transparent;
+}
+nav.navbar .active:first-child .nav-link:after {
+    color: #BEBEBE;
+}
+@media (max-width: 767px) {
+    nav.navbar .active .nav-link:after {
+        display: none;
+    }
+    nav.navbar .navbar-nav {
+        text-align: center;
+    }
+    nav.navbar .nav-item {
+        display: inline-block;
+        float: none;
+    }
+}
+nav.navbar a {
+    font-family: 'Droid Serif';
+}
+nav.navbar .navbar-nav > li > .nav-link {
+    color: #BDBDBD;
+}
+nav.navbar .nav-link.active {
+    color: #EFEFEF;
+}
+nav.navbar .navbar-nav > li > .nav-link:hover, nav.navbar .navbar-nav > li > .nav-link:focus {
+    color: inherit;
+}
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #373a3c;
+  /*border-top: .05rem solid #e5e5e5;*/
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
